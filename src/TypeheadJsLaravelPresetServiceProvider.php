@@ -68,7 +68,7 @@ class TypeheadJsLaravelPresetServiceProvider extends ServiceProvider
 
         // Publishing assets.
         $this->publishes([
-            __DIR__ . '/../../../corejavascript/typeahead.js/dist' => public_path('vendor/takielias'),
+            __DIR__ . '/../../../corejavascript/typeahead.js/dist' => public_path('vendor/takielias/typeheadjslaravelpreset'),
         ], 'typeheadjslaravelpreset.views');
 
         // Publishing the translation files.
